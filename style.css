@@ -1,0 +1,46 @@
+<style>
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+.main-wrapper {
+	max-width:100%;
+	margin:auto;
+	padding:20px;
+	background-color:darkblue;
+}
+.nav{
+	display:flex;
+}
+.nav ul {
+	margin:0 3rem 0 0;
+	padding:0;
+	list-style:none;
+	display:flex;
+	flex:1 0 0%;
+	justify-content:space-between
+}
+.nav ul a {
+	display:block;
+	padding:5px 5px;
+	color:white;
+}
+.slideshow{
+	width:100%;
+	height:700px;
+	
+}
+#slideimage{
+	width:100%;
+	height:700px;
+}
+.rajesh{
+	text-align:center;
+	color:default;
+	text-align:justify;
+    text-justify:inter-word;
+	font-weight: bold;
+}
+</style>
